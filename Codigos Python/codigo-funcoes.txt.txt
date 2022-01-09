@@ -1,0 +1,14 @@
+# Código Função
+
+### 
+
+```
+variavel = 'valor'
+
+
+def func():
+    print(variavel)
+
+
+func()
+```
