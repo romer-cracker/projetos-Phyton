@@ -1,0 +1,20 @@
+# Código calculadora em Python
+
+```
+num1 = int(input('Digite o primeiro valor: '))
+operador = str(input('Digite a operação: '))
+num2 = int(input('Digite o segundo valor: '))
+
+if operador == "+":
+    resutado = num1 + num2
+if operador == "-":
+    resutado = num1 - num2
+if operador == "*":
+    resutado = num1 * num2
+if operador == "/":
+    resutado = num1 / num2
+else:
+    print('Operador inválido!')
+
+print(f'O resultado da operação foi de {resutado}')
+```
